@@ -17,6 +17,17 @@
             color: white;
             padding: 20px;
             text-align: center;
+            position: relative;
+        }
+        .boton-imagen {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+        }
+        .boton-imagen img {
+            width: 40px;
+            height: auto;
+            cursor: pointer;
         }
         main {
             padding: 40px 20px;
@@ -50,6 +61,10 @@
 <body>
 
     <header>
+        <!-- Botón de imagen en la esquina superior izquierda -->
+        <a class="boton-imagen" href="https://ventas.toptickets.com.mx/">
+            <img src="ruta-de-tu-imagen.png" alt="Botón de regreso">
+        </a>
         <h1>Soporte Top Tickets</h1>
     </header>
 
@@ -65,3 +80,4 @@
 
 </body>
 </html>
+
